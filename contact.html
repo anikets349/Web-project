@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mealify | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="96*96">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9d2c1e4226.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <h1>Mealify</h1>
+        <div class="header-search-box">
+            <input type="text" placeholder="Search Dishes..." name="search-dishes" id="search-dishes">
+            <button id="search-button" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <ul>
+            <li>
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="#">Login</a>
+            </li>
+            <li>
+                <i class="fas fa-user-plus"></i>
+                <a href="#">Sign Up</a>
+            </li>
+        </ul>
+    </header>
+    <nav id="navbar">
+        <ul id="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="foodies.html">For Foodies</a></li>
+            <li><a href="customers.html">Customer Reviews</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="active" href="contact.html">Get in Touch</a></li>
+        </ul>
+    </nav>
+    <main id="contact-page">
+        <div class="contact-page-content">
+            <p>Subscribe for frequent updates</p>
+            <form id="form" action="/contact.html">
+                <div class="input-container">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" name="name" placeholder="Username" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-phone-alt input-icon"></i>
+                    <input type="number" name="contact-number" id="contact-number"
+                        placeholder="Enter contact number here" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" id="email" placeholder="Enter email here" required>
+                </div>
+                <div class="submit-button">
+                    <button id="contact-form-submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="contact.js"></script>
+</body>
+
+</html>
