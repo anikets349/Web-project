@@ -25,3 +25,14 @@ inputField.addEventListener('mouseout', () => {
     locationDiv.style.display = "none";
 });
 
+
+/*const button = document.getElementById('find-restaurants');
+button.addEventListener('click', () => {
+    console.log("You pressed the find button.");
+});
+
+const textfield = document.getElementById('search-restaurants');
+textfield.addEventListener('change', () => {
+    console.log(textfield.value);
+});*/
+
