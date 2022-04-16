@@ -17,13 +17,13 @@ let flag = false;
 //     }
 // });
 
-inputField.addEventListener('mouseover', () => {
+/*inputField.addEventListener('mouseover', () => {
     locationDiv.style.display = "block";
 });
 
 inputField.addEventListener('mouseout', () => {
     locationDiv.style.display = "none";
-});
+});*/
 
 
 /*const button = document.getElementById('find-restaurants');
@@ -36,3 +36,17 @@ textfield.addEventListener('change', () => {
     console.log(textfield.value);
 });*/
 
+const arrowBtn = document.getElementById('arrowIcon');
+
+function mapFn() {
+    const mapDiv = document.getElementsByClassName('mapDiv')[0];
+    console.log(mapDiv);
+    if (!flag) {
+        mapDiv.style.display = "block";
+        flag = true;
+    }
+    else {
+        mapDiv.style.display = "none";
+        flag = false;
+    }
+}

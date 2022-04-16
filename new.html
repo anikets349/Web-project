@@ -1,0 +1,20 @@
+<div class="mapDiv">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d584410.6319776641!2d78.17393777628557!3d15.788789341825296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2sin!4v1616125930661!5m2!1sen!2sin"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+const arrowBtn = document.getElementById('arrowIcon');
+
+function mapFn() {
+const mapDiv = document.getElementsByClassName('mapDiv')[0];
+console.log(mapDiv);
+if (!flag) {
+mapDiv.style.display = "block";
+flag = true;
+}
+else {
+mapDiv.style.display = "none";
+flag = false;
+}
+}

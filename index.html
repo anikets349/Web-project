@@ -23,7 +23,7 @@
         <ul>
             <li>
                 <i class="fas fa-sign-in-alt"></i>
-                <a href="#">Login</a>
+                <a href="login.html">Login</a>
             </li>
             <li>
                 <i class="fas fa-user-plus"></i>
@@ -49,7 +49,7 @@
         </div>
         <div class="search-area">
             <div class="location-icon">
-                <i class="fas fa-location-arrow"></i>
+                <i onclick="mapFn()" id="arrowIcon" class="fas fa-location-arrow fa-crosshairs"></i>
             </div>
             <div class="search-box">
                 <input type="text" name="search-restaurants" id="search-restaurants"
@@ -57,12 +57,10 @@
                 <button id="find-restaurants">Place Your Order</button>
             </div>
         </div>
-        <div class="detect-location">
-            <i class="fas fa-crosshairs"></i>
-            <span class="text">Detect current location</span>
-        </div>
+        <div class="mapDiv">
+            4
     </section>
-    <main id="home-main">
+    <main id=" home-main">
         <section id="home-main-content">
             <h2>How Mealify works</h2>
             <h3>Ordering food online has never been this easy</h3>

@@ -261,6 +261,7 @@ header ul li a {
 #home-main-content h2,
 #home-main-content h3 {
   font-family: Candara;
+  text-align: center;
   font-weight: 400;
 }
 
@@ -268,7 +269,7 @@ header ul li a {
   width: 100%;
   font-size: 10px;
   font-family: "Cabin", sans-serif;
-  margin-top: 50px;
+  margin: 50px 0;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -700,4 +701,8 @@ footer p:last-child {
   height: 50px;
   color: black;
   background-color: yellow;
+}
+
+.mapDiv {
+  display: none;
 }

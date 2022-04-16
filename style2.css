@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: crimson;
+  color: white;
+  border-bottom: 1px solid #b91313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  cursor: default;
+  /* margin-top: 20px; */
+  font-family: Segoe UI Black, Arial;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: lowercase;
+  /* line-height: 20px; */
+  margin-left: 15%;
+}
+
+header ul {
+  list-style-type: none;
+  margin-right: 5%;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  font-family: Candara;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 0 10px 0 5px;
+}
+
+#navbar {
+  width: 100%;
+  height: 7vh;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 4px 2px #786868;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  /* font-family: "Righteous", cursive; */
+  font-family: Segoe UI Semibold;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  padding: 5px 15px;
+}
+
+#navlinks .active {
+  color: black;
+}
+
+main {
+  width: 100vw;
+  height: 70vh;
+  /* border: 1px solid black; */
+  display: flex;
+  color: crimson;
+  justify-content: center;
+  align-items: center;
+}
+
+main form {
+  width: 50%;
+  height: 50%;
+  /* border: 1px solid black; */
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form div {
+  margin: 10px;
+}
+
+#submitBtn {
+  margin-right: 10px;
+  padding: 5px;
+}
